@@ -19,5 +19,9 @@ Working on a sample of 100k rows and 42 columns which presents for information r
 #sidewalk      4992
 #problems      4992
 
----
+# Data cleaning
+
+- Drop duplication
+- Strip the spaces in data cell
+- 
 
