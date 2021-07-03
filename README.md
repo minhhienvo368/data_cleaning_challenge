@@ -20,8 +20,14 @@ Working on a sample of 100k rows and 42 columns which presents for information r
 #problems      4992
 
 # Data cleaning
-
+- Convert dtypes: integer columns contain string values
+- Replaced null values with np.nan
+- Existing 'None' values in categorical columns (e.g. steward: 1or2, 3or4, 4ormore, None)
 - Drop duplication
 - Strip the spaces in data cell
-- 
+- Garantee for Values are consolidate (Replaces underscore with space ' ', capitalize values (e.g. 'spc_common')
+- Convert yes/no variables into Boolean (True/False) values
+- Drop the redundant columns
+- Decaration: Rename or reorganize order of columns
+- Export the final cleaned dataset
 
